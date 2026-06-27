@@ -12,3 +12,25 @@ if (toggle && nav) {
     });
   });
 }
+
+const tabButtons = document.querySelectorAll('[data-tab-target]');
+const tabPanels = document.querySelectorAll('[data-tab-panel]');
+const packageSection = document.querySelector('#launch-package');
+
+tabButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    const target = button.getAttribute('data-tab-target');
+
+    tabButtons.forEach((item) => {
+      item.classList.toggle('is-active', item === button);
+    });
+
+    tabPanels.forEach((panel) => {
+      panel.classList.toggle('is-active', panel.getAttribute('data-tab-panel') === target);
+    });
+
+    if (packageSection) {
+      packageSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});

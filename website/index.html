@@ -28,11 +28,11 @@
         <span class="sr-only">Toggle navigation</span>
       </button>
       <nav id="site-nav" class="site-nav" aria-label="Primary navigation" data-site-nav>
+        <a href="#launch-package">Launch Package</a>
         <a href="#programs">Programs</a>
         <a href="#how">How It Works</a>
         <a href="#difference">BASE Difference</a>
         <a href="#education">Education</a>
-        <a href="#partner">Partner</a>
       </nav>
       <div class="nav-actions">
         <a class="btn btn-outline" href="#signin">Sign In</a>
@@ -40,6 +40,29 @@
       </div>
     </div>
   </header>
+
+  <aside class="launch-sidebar" aria-label="BASEmd launch package tabs">
+    <div class="sidebar-kicker">Completed</div>
+    <a class="sidebar-home" href="#launch-package">BASEmd Build</a>
+    <button class="sidebar-tab is-active" type="button" data-tab-target="presentation">
+      <span>Presentation</span><strong>Reality roadmap</strong>
+    </button>
+    <button class="sidebar-tab" type="button" data-tab-target="proforma">
+      <span>Proforma</span><strong>Spend-driven model</strong>
+    </button>
+    <button class="sidebar-tab" type="button" data-tab-target="gtm">
+      <span>GTM Plan</span><strong>Channel strategy</strong>
+    </button>
+    <button class="sidebar-tab" type="button" data-tab-target="mock-ads">
+      <span>Mock Ads</span><strong>Compliant angles</strong>
+    </button>
+    <button class="sidebar-tab" type="button" data-tab-target="website">
+      <span>Website</span><strong>Live homepage</strong>
+    </button>
+    <button class="sidebar-tab" type="button" data-tab-target="timeline">
+      <span>Timeline</span><strong>Launch sequence</strong>
+    </button>
+  </aside>
 
   <main id="main">
     <section class="hero section-pad">
@@ -97,6 +120,98 @@
             <p>If prescribed, products are fulfilled by licensed pharmacy partners.</p>
           </div>
         </article>
+      </div>
+    </section>
+
+    <section id="launch-package" class="launch-package section-pad">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow red">Build handoff</p>
+          <h2>Completed launch-package tabs.</h2>
+          <p>The same `/BASEmd/` link now includes the finished GTM plan, branded presentation, proforma model, mock ad matrix, launch timeline, and website execution notes.</p>
+        </div>
+
+        <div class="package-shell reveal">
+          <div class="package-summary">
+            <p class="status-pill">Complete</p>
+            <h3>BASEmd reality package</h3>
+            <p>Use these tabs as the operating handoff for making BASEmd real while keeping BASEmd in the brand, education, access, marketing, and non-clinical support role.</p>
+            <div class="download-stack">
+              <a class="btn btn-primary" href="./downloads/BASEmd_Reality_Roadmap.pptx">Download Presentation</a>
+              <a class="btn btn-outline" href="./downloads/BASEmd_Proforma_GTM.xlsx">Download Proforma</a>
+            </div>
+          </div>
+
+          <div class="package-tabs" aria-live="polite">
+            <article class="package-panel is-active" data-tab-panel="presentation">
+              <p class="eyebrow red">Branded presentation</p>
+              <h3>Steps to make BASEmd a reality.</h3>
+              <p>The deck frames what BASEmd is and is not, the legal and operating sequence, partner stack, website/funnel target, 90-day launch timeline, startup cost structure, proforma logic, GTM plan, mock ads, risk register, and next 10 actions.</p>
+              <div class="panel-grid">
+                <span>Operating model and partner separation</span>
+                <span>Legal, privacy, claims, and launch gates</span>
+                <span>90-day build path and risk register</span>
+              </div>
+              <a class="text-link" href="./downloads/BASEmd_Reality_Roadmap.pptx">Open the branded presentation</a>
+            </article>
+
+            <article class="package-panel" data-tab-panel="proforma">
+              <p class="eyebrow red">Formula-driven proforma</p>
+              <h3>Startup costs, timeline, and revenue tied to marketing spend.</h3>
+              <p>The workbook includes Dashboard, Inputs, Revenue Model, Startup Costs, Timeline, GTM Plan, Mock Ads, and Sources tabs. `Inputs!B5` is the adjustable monthly paid-media budget driver; changing it updates spend, impressions, clicks, assessments, clinical starts, active members, revenue, CAC, EBITDA, and dashboard KPIs.</p>
+              <div class="metric-row">
+                <div><strong>Inputs!B5</strong><span>Monthly Paid Media Budget</span></div>
+                <div><strong>$25k</strong><span>Current base case</span></div>
+                <div><strong>Live formulas</strong><span>No hardcoded dashboard outputs</span></div>
+              </div>
+              <a class="text-link" href="./downloads/BASEmd_Proforma_GTM.xlsx">Open the proforma workbook</a>
+            </article>
+
+            <article class="package-panel" data-tab-panel="gtm">
+              <p class="eyebrow red">Genuine GTM marketing plan</p>
+              <h3>Channel strategy with scale gates.</h3>
+              <p>The GTM plan covers Google Search, Meta/Instagram, SEO and clinician-reviewed education content, Email/SMS nurture, partnerships with gyms/coaches/races/clinics, YouTube education, and privacy-approved retargeting only. Spend scales after CAC, assessment quality, partner capacity, and retention are visible.</p>
+              <div class="panel-grid">
+                <span>Audience strategy by demand pocket</span>
+                <span>Budget allocation guidance</span>
+                <span>Funnel KPI gates and scale criteria</span>
+              </div>
+            </article>
+
+            <article class="package-panel" data-tab-panel="mock-ads">
+              <p class="eyebrow red">Mock ads</p>
+              <h3>Compliant creative testing matrix.</h3>
+              <p>The mock ad tab includes channel, objective, audience, hook, primary text, headline, CTA, visual direction, and compliance guardrail. It avoids guaranteed outcomes, diagnosis language, before/after framing, guaranteed prescription access, and per-prescription economics.</p>
+              <div class="panel-grid">
+                <span>Meta, Google Search, YouTube, Email, LinkedIn</span>
+                <span>Education-first creative angles</span>
+                <span>Healthcare counsel review before launch</span>
+              </div>
+            </article>
+
+            <article class="package-panel" data-tab-panel="website">
+              <p class="eyebrow red">Website execution</p>
+              <h3>Live homepage based on the latest mockup direction.</h3>
+              <p>The website uses the last BASEmd homepage image as the starting point and moves toward the provided model-site conversion architecture: strong hero, product/program navigation, program cards, how-it-works steps, trust/quality section, CTA banner, and footer disclaimers without copying the model site text, code, images, testimonials, or brand elements.</p>
+              <div class="panel-grid">
+                <span>Styled responsive homepage</span>
+                <span>Logo and all program assets loading</span>
+                <span>Compliance disclaimer visible in footer</span>
+              </div>
+            </article>
+
+            <article class="package-panel" data-tab-panel="timeline">
+              <p class="eyebrow red">Timeline</p>
+              <h3>Launch sequence before paid scale.</h3>
+              <p>The timeline stages executive decisions, legal architecture, partner sourcing, website build, funnel and CRM setup, clinical handoff, creative testing, soft launch, scale gate, and expansion. The sequence keeps marketing spend behind structure, contract, privacy, and partner-readiness gates.</p>
+              <div class="panel-grid">
+                <span>Weeks 0-4: structure and legal review</span>
+                <span>Weeks 2-10: website, partners, funnel, CRM</span>
+                <span>Weeks 10-12+: soft launch and scale gates</span>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
 
